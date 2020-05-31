@@ -1,0 +1,24 @@
+leje=5005
+
+#Antal overnatningner
+mc=7
+s=5
+o=5
+b=4
+k=5
+f=7
+ce=7
+ca=5
+u=7
+n=6
+ma=3
+hp=1
+
+#som en liste
+peeps=(mc,s,o,b,n,ce,ca,u,f,k,ma,hp)
+
+#Funktionen regner ud hvad x skal betale
+def pay(x):
+    return print('skal betale', leje*x/sum(peeps), 'kr')
+
+pay(n)
